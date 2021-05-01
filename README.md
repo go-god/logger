@@ -1,4 +1,4 @@
-# golang logger
+# logger
 
      Logger module based on uber zap package,
      which can be used to record operation logs in go applications
@@ -21,4 +21,3 @@
 # zap
     
     https://github.com/uber-go/zap
-    
