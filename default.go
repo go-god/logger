@@ -19,6 +19,7 @@ var (
 )
 
 // Default 默认zap logger对象
+// WithWriteToFile 默认写入文件中，如需要在终端输入使用 logger.WithStdout(true) 开启
 func Default(opts ...Option) {
 	options := []Option{
 		WithLogDir(DefaultLogDir),       // 日志目录
